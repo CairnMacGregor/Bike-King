@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/about.css">
+    <script src="https://kit.fontawesome.com/faea18554b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class = "navbar">
+        <div class = "title">
+            <a href="/index.html">Border Bikes</a>
+        </div>
+        <a href="/index.html" class = "toggle-button">
+            <span class = "bar"></span>
+            <span class = "bar"></span>
+            <span class = "bar"></span>
+        </a>
+        <div class="navbar-links">
+            <ul>
+                <form action="">
+                    <input type="text">
+                    <button id = "nav_search" class = search_bar><i class="fas fa-search"></i></button> 
+                </form>
+                <li><a href="bikes.html" class = "tag-link">Bikes <i class="fas fa-bicycle"></i></a></li>
+                <li><a href="service.html" class = "tag-link">Servicing <i class="fas fa-wrench"></i></a></li>
+                <li><a href="accessories.html" class = "tag-link">Accessories <i class="fas fa-shopping-bag"></i></a> </li>
+                <li><a href="trails.html" class = "tag-link">Bike Trails <i class="fas fa-tree"></i></a></li>
+                <li><a href="gallery.html" class = "tag-link">Gallery <i class="fas fa-images"></i></a></li>
+                <li><a href="about.html" class = "tag-link current">About us <i class="fas fa-info-circle"></i></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section>
+        <div class = "container">
+            <div class="content_box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/LDU_Txk06tM" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen></iframe>
+    </div>
+        <div class="content_box text_box">
+            <h2>We are border king Bikes</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores, perspiciatis.</p>
+        </div>
+        </div>
+<div class="container">
+        <div class="content_box text_box">
+        <h2>Where can you find us?</h2>
+        <p>You can find us at 7 Bike shop Lane, Border town</p>
+        <p>You can contact us if needed here:</p>
+
+    </div>
+        <div class = "map_box content_box"><div id = "map"></div>
+        <p>The map works in functionality but im not enabling the payments so youre stuck with this shite</p>
+    </div>
+    </div>
+
+    <div class="container">
+        <div class = "content_box text_box">
+            <h2>Sign up for our newsletter</h2>
+            <p>To hear about the latest in biking, sign up today!</p>
+        </div>
+        <form action="post" class = "form" method = "post">
+            <div class = "heading_secondary">
+                <h2>Sign up here!</h2>
+            </div>
+            <div class = "form_group">
+                <label class="form_label" for="name">Full name</label>
+                <input class = "form_input" type="text" name ="name" placeholder="Name" required>
+            </div>
+            <div class="form_group">
+                <label for="email" class="form_label">Email address</label>
+                <input type="email" class="form_input" name="_replyto" placeholder="Email address"required>
+                <input class = "button_submit" type="submit" value="Sign up">
+            </div>
+            <!-- <div class="form_group">
+                <textarea class = "form_input"  name="message" placeholder="message" required></textarea>
+                <input class = "button_submit" type="submit" value="Send">
+            </div> -->
+        </form>
+    </div>
+    </section>
+    <footer>
+        <div class = "grid">
+            <div class = "grid_item">
+                <h2 class = "footer_h2">Learn more about biking</h2>
+                <a class ="footer_a" href="#">Why mountain biking is a great form of exercise</a>
+                <a class ="footer_a" href="#">How cycling to work will save the planet</a>
+                <a class ="footer_a" href="#">Bikes vs cars for commuting</a>
+                <a class ="footer_a" href="#">Bike maintenance guide</a>
+            </div>
+            <div class = "grid_item">
+                <h2 class = "footer_h2">Events</h2>
+                <a class ="footer_a" href="#">Races</a>
+                <a class ="footer_a" href="#">Mountain biking team</a>
+                <a class ="footer_a" href="#">Custom building club</a>
+                
+            </div>
+            <div class = "grid_item">
+                <h2 class = "footer_h2">More from us</h2>
+                <a class ="footer_a" href="#">About us</a>
+                <a class ="footer_a" href="#">Blog</a>
+                <a class ="footer_a" href="#">Career opportunities</a>
+            </div>
+            <div class = "grid_item">
+                <h2>Support</h2>
+                <a class ="footer_a" href="#">Contact us</a>
+                <a class ="footer_a" href="#">Help</a>
+            </div>
+        </div>
+
+        <div class = "socials">
+            <a class = "social_link" href="#"><i class="fab fa-facebook-f"></i></a>
+            <a class = "social_link" href="#"><i class="fab fa-instagram"></i></a>
+            <a class = "social_link" href="#"><i class="fab fa-twitter"></i></a>
+            <a class = "social_link" href="#"><i class="fab fa-youtube"></i></a>
+            <a class = "social_link" href="#"><i class="fab fa-reddit"></i></a>
+        </div>
+
+  </footer>
+
+
+
+
+
+<script src="/js/script.js"></script>
+<script src="/js/map.js"></script>
+<!-- <script defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC3FozSB6AqIxgmTqrEx7Hro8PpFGtn11o&callback=initMap">
+</script> -->
+
+</body>
+</html>
