@@ -7,6 +7,11 @@ html{
     margin: 3rem;
 }
 
+.youtube_vid{
+    width:560px;
+    height:315px;
+}
+
 .map_box{
     text-align: center;
     align-items: center;
@@ -105,6 +110,11 @@ textarea{
 .form{
     margin: 1rem;
     padding: 1rem;
+}
+
+.youtube_vid{
+    width:500px;
+    height:315px;
 }
 
 }

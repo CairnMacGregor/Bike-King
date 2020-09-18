@@ -1,16 +1,14 @@
-
 .header{
     background-image:linear-gradient(
         to right bottom,
         rgba(0, 0, 0, 0.3),
         rgba(0, 0, 0, 0.9)),
-    url(/imgs/alternative_background.jpg);
+    url(/imgs/alternative_background_smaller.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
     padding: 0 3rem 0 3rem;
     color: white;
-;
 }
 .emphasis{
     color: red;

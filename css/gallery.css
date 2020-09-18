@@ -1,0 +1,49 @@
+.gallery{
+    height: 100vh;
+}
+
+
+.grid_container{
+   padding: 5rem;
+}
+
+html{
+    background-image: url(/imgs/background_secondary1.png);
+    background-size: cover;
+}
+
+.gallery_img{
+    width: 100%;
+}
+
+.gallery_card{
+    padding: 0;
+    margin: 1rem;
+    background: white;
+}   
+
+.card_info{
+    padding: 1rem;
+    border-top: 2px solid black; 
+}
+
+.gallery_submitted{
+    display: inline-block;
+}
+
+.gallery_date{
+    float: right;
+}
+
+.gallery_grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+ }
+
+
+
+    @media only screen and (min-width: 620px){ 
+        .gallery_grid{
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+         }
+    }
