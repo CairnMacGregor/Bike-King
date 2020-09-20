@@ -51,16 +51,14 @@ body{
     display: block;
 }
 
-form{
-    display: block;
-    padding: 1rem;
-}
-
 .search_bar{
     display:inline-block;
     cursor: pointer;
 }
 
+.nav_form{
+    padding: 1rem;
+}
 .navbar-links li:hover{
     background-color: #555;
 }

@@ -6,6 +6,7 @@
     <title>Service</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/service.css">
     <script src="https://kit.fontawesome.com/faea18554b.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -21,10 +22,12 @@
         </a>
         <div class="navbar-links">
             <ul>
-                <form action="">
-                    <input type="text">
-                    <button id = "nav_search" class = search_bar><i class="fas fa-search"></i></button> 
-                </form>
+                <div class ="nav_form">
+                    <form action="">
+                        <input type="text">
+                        <!-- <button id = "nav_search" class = search_bar><i class="fas fa-search"></i></button>  -->
+                    </form>
+                </div>
                 <li><a href="bikes.html" class = "tag-link">Bikes <i class="fas fa-bicycle"></i></a></li>
                 <li><a href="service.html" class = "tag-link current">Servicing <i class="fas fa-wrench"></i></a></li>
                 <li><a href="accessories.html" class = "tag-link">Accessories <i class="fas fa-shopping-bag"></i></a> </li>
@@ -34,7 +37,90 @@
             </ul>
         </div>
     </nav>
-    <h1>Service</h1>
+    <section class = "servicing">
+        <div class="container">
+            <div class="servicing_text">
+            <h1>Take care of your bike</h1>
+            <p>We know how much your bike means to you</p>
+            <p>Let us help you take care of it</p>
+            <h5>Fill out our form below to get the exact service you require</h5>
+        </div>
+            <img class = "service_img" src="/imgs/service.png" alt="Picture of guy on bike ">
+        </div>
+    </section>
+    <section>
+        <div  class = "servicing_form_container">
+        <form class = "service_form" action="">
+            <div class = "form_group">
+                <input class ="form_input" type="text">
+                <label class ="form_label" for="Name">Enter your name</label>
+            </div>
+            <div class = "form_group">
+                <input class ="form_input" type="email">
+                <label class ="form_label" for="email">Enter your email</label>
+            </div>
+            <div class = "form_group">
+                <input class ="form_input" type="text">
+                <label class ="form_label" for="Phone">Enter your phone number</label>
+            </div>
+            <div class = "form_group">
+                <label class ="form_label" for="Name">I would prefer to be contacted by:</label>
+                <div class="radio_box"><input class ="radio" type="radio" name = "preference"> <label for="preference_email">Email</label></div>
+                <div class="radio_box"><input class ="radio" type="radio" name = "preference"> <label for="preference_phone">Phone</label></div>
+                <div class="radio_box"> <input class ="radio" type="radio" name = "preference"> <label for="preference_either">Either</label></div>
+               
+            </div>
+            <div class = "form_group">
+                <input class ="form_input" type="text">
+                <label class ="form_label" for="Bike">Enter your model of bike</label>
+            </div>
+            <div class = "form_group">
+                <textarea class ="form_input" name="message" ></textarea>
+                <label class ="form_label" for="Phone">Tell us a briefly about your needs, we will discuss further when we contact you</label>
+                <input class = "button_submit" type="submit" value="Submit">
+            </div>
+        </div>
+        </form>
+    </section>
+<!-- FOOTER -->
+    <footer>
+        <div class = "grid">
+            <div class = "grid_item">
+                <h2 class = "footer_h2">Learn more about biking</h2>
+                <a class ="footer_a" href="#">Why mountain biking is a great form of exercise</a>
+                <a class ="footer_a" href="#">How cycling to work will save the planet</a>
+                <a class ="footer_a" href="#">Bikes vs cars for commuting</a>
+                <a class ="footer_a" href="#">Bike maintenance guide</a>
+            </div>
+            <div class = "grid_item">
+                <h2 class = "footer_h2">Events</h2>
+                <a class ="footer_a" href="#">Races</a>
+                <a class ="footer_a" href="#">Mountain biking team</a>
+                <a class ="footer_a" href="#">Custom building club</a>
+                
+            </div>
+            <div class = "grid_item">
+                <h2 class = "footer_h2">More from us</h2>
+                <a class ="footer_a" href="#">About us</a>
+                <a class ="footer_a" href="#">Blog</a>
+                <a class ="footer_a" href="#">Career opportunities</a>
+            </div>
+            <div class = "grid_item">
+                <h2>Support</h2>
+                <a class ="footer_a" href="#">Contact us</a>
+                <a class ="footer_a" href="#">Help</a>
+            </div>
+        </div>
+    
+        <div class = "socials">
+            <a class = "social_link" href="#"><i class="fab fa-facebook-f"></i></a>
+            <a class = "social_link" href="#"><i class="fab fa-instagram"></i></a>
+            <a class = "social_link" href="#"><i class="fab fa-twitter"></i></a>
+            <a class = "social_link" href="#"><i class="fab fa-youtube"></i></a>
+            <a class = "social_link" href="#"><i class="fab fa-reddit"></i></a>
+        </div>
+    
+    </footer>
     <script src="/js/script.js"></script>
 </body>
 </html>
