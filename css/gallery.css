@@ -1,9 +1,32 @@
-.gallery{
+.gallery_section{
     min-height: 100vh;
 }
 
-.grid_container{
-   padding: 5rem;
+.gallery_grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    margin: 0.5rem;
+    justify-content: center;
+ }
+
+.gallery_card{
+    background: white;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    object-fit: cover;
+    margin: auto;
+    margin-top: 1.5rem;
+}
+ img{
+    max-width: 200%;
+    max-height: 200%;
+}
+
+.gallery_grid_item{
+width: 300px;
+margin: auto;
+justify-content: center;
 }
 
 html{
@@ -11,45 +34,9 @@ html{
     background-size: cover;
 }
 
-.gallery_img{
-    width: 100%;
-}
-
-.gallery_card{
-    width: 300px;
-    padding: 0;
-    margin: 1rem;
-    background: white;
-}   
-
-.card_info{
-    padding: 1rem;
-    border-top: 2px solid black; 
-}
-
-.gallery_submitted{
-    display: inline-block;
-}
-
-.gallery_date{
-    float: right;
-}
-
-.gallery_grid{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
- }
 
  @media(max-width: 1000px){
-    .grid_container{
-        margin: auto;
-        padding: 0;
-    }
-
-    .gallery_card{
-     margin: 1rem auto ;
-     
-    }   
+    
     
  }
     @media only screen and (min-width: 620px){ 
