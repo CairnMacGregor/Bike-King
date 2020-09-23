@@ -150,6 +150,26 @@ footer{
 .footer_i:hover{
     color: blue; 
 }
+
+.btn{
+    margin-top: 1rem;
+    transition-duration: 0.4s;
+    padding: 15px 32px;
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+    max-width: 50%;
+    margin: auto;
+    font-size: 1.2rem;
+    display: block;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
 @media only screen and (min-width: 620px){ 
 .grid{
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
@@ -203,4 +223,9 @@ footer{
        color:black;
        font-size: 2rem;
    }
+
+   .btn{
+    max-width: 90%;
+}
+
 }

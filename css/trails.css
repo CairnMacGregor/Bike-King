@@ -1,0 +1,181 @@
+.section_trails{
+   margin: 1rem;
+
+}
+
+
+.trail_card {
+    perspective: 150rem;
+    position: relative;
+    height: 52rem; 
+    max-width: 30rem;
+ 
+}
+    .trail_card__side {
+      font-size: 2rem;
+      height: 52rem;
+      transition: all .8s ease;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      backface-visibility: hidden;
+      border-radius: 3px;
+      overflow: hidden;
+      box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); }
+      .trail_card__side--front {
+        background-color: #fff; }
+      .trail_card__side--back {
+        transform: rotateY(180deg); }
+        .trail_card__side--back-1 {
+            background-image: linear-gradient(to right bottom, rgba(17, 202, 0, 0.85), rgba(3, 36, 0, 0.85)); }
+            .trail_card__side--back-2 {
+                background-image: linear-gradient(to right bottom, rgba(0, 145, 202, 0.85), rgba(1, 0, 36, 0.85)); }
+                .trail_card__side--back-3 {
+                    background-image: linear-gradient(to right bottom, rgba(214, 182, 0, 0.85), rgba(73, 50, 0, 0.85)); }
+    .trail_card:hover .trail_card__side--front {
+      transform: rotateY(-180deg); }
+    .trail_card:hover .trail_card__side--back {
+      transform: rotateY(0); }
+    .trail_card__picture {
+      background-size: cover;
+      height: 23rem;
+      background-blend-mode: screen;
+      -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+      clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+      border-top-left-radius: 3px;
+      border-top-right-radius: 3px; }
+      .trail_card__picture--1 {
+        background-image: url(/imgs/background.jpg); }
+        .trail_card__picture--2 {
+            background-image: url(/imgs/alternative_background.jpg); }
+            .trail_card__picture--3 {
+                background-image: url(/imgs/bike_gallery_mountains.jpg); }
+    .trail_card__heading {
+      font-size: 2.8rem;
+      font-weight: 300;
+      text-transform: uppercase;
+      text-align: right;
+      color: #fff;
+      position: absolute;
+      top: 12rem;
+      right: 2rem;
+      width: 75%; }
+    .trail_card__heading-span {
+      padding: 1rem 1.5rem;
+      -webkit-box-decoration-break: clone;
+      box-decoration-break: clone; }
+      .trail_card__heading-span--1 {
+        background-image: linear-gradient(to right bottom, rgba(17, 202, 0, 0.85), rgba(3, 36, 0, 0.85)); }
+        .trail_card__heading-span--2 {
+            background-image: linear-gradient(to right bottom, rgba(0, 145, 202, 0.85), rgba(1, 0, 36, 0.85));  }
+            .trail_card__heading-span--3 {
+                background-image: linear-gradient(to right bottom, rgba(214, 182, 0, 0.85), rgba(73, 50, 0, 0.85));}
+    .trail_card__details {
+      padding: 3rem; }
+      .trail_card__details ul {
+        list-style: none;
+        width: 80%;
+        margin: 0  auto; }
+        .trail_card__details ul li {
+          text-align: center;
+          font-size: 1.5rem;
+          padding-top: 1rem; }
+          .trail_card__details ul li img {
+            height: 5rem; }
+            @media (max-width: 75em) {
+              .trail_card__details ul li img {
+                height: 4rem; } }
+          @media (max-width: 56.25em) {
+            .trail_card__details ul li {
+              font-size: 2rem; } }
+          .trail_card__details ul li:not(:last-child) {
+            border-bottom: 1px solid #eee; }
+    .trail_card__cta {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+      text-align: center;   
+    }
+    .trail_card__link {
+      text-align: center;
+      color: #fff;
+      margin-bottom: 8rem; }
+    .trail_card__link-only {
+      font-size: 1.1rem;
+      text-transform: uppercase; }
+    .trail_card__link-value {
+      font-size: 6rem;
+      font-weight: 100; }
+    @media (max-width: 56.25em) {
+      .trail_card {
+        height: auto;
+        border-radius: 3px;
+        background-color: #fff;
+        box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); }
+        .trail_card__side {
+          height: auto;
+          position: relative;
+          box-shadow: none; }
+          .trail_card__side--back {
+            transform: rotateY(0);
+            clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%); }
+        .trail_card:hover .trail_card__side--front {
+          transform: rotateY(0); }
+        .trail_card__details {
+          padding: 1rem 3rem; }
+        .trail_card__cta {
+          position: relative;
+          top: 0%;
+          left: 0%;
+          transform: translate(0);
+          width: 100%;
+          padding: 7rem 4rem 4rem 4rem; }
+        .trail_card__link {
+            margin-bottom: 3rem; 
+            font-size: 1rem;
+    } 
+}
+  
+.row2 {
+    max-width: 114rem;
+    margin: 0 auto; }
+    .row2:not(:last-child) {
+      margin-bottom: 8rem; }
+      @media (max-width: 56.25em) {
+        .row2:not(:last-child) {
+          margin-bottom: 6rem; } }
+    @media (max-width: 56.25em) {
+      .row2 {
+        max-width: 50rem;
+        padding: 0 3rem; } }
+    .row2::after {
+      content: "";
+      display: table;
+      clear: both; }
+    .row2 [class^="col-"] {
+      float: left; }
+      .row2 [class^="col-"]:not(:last-child) {
+        margin-right: 6rem; }
+        @media (max-width: 56.25em) {
+          .row2 [class^="col-"]:not(:last-child) {
+            margin-right: 0;
+            margin-bottom: 6rem; } }
+      @media (max-width: 56.25em) {
+        .row2 [class^="col-"] {
+          width: 100% !important; } }
+    .row2 .col-1-of-2 {
+      width: calc((100% - 6rem) / 2); }
+    .row2 .col-1-of-3 {
+      width: calc((100% - 2 * 6rem) / 3); }
+    .row2 .col-2-of-3 {
+      width: calc(2 * ((100% - 2 * 6rem) / 3) + 6rem); }
+    .row2 .col-1-of-4 {
+      width: calc((100% - 3 * 6rem) / 4); }
+    .row2 .col-2-of-4 {
+      width: calc(2 * ((100% - 3 * 6rem) / 4) + 6rem); }
+    .row2 .col-3-of-4 {
+      width: calc(3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem); }
+ 

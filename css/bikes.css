@@ -1,6 +1,5 @@
 .important_info{
     margin-left: 5rem;    
-
 }
 
 .break_up{
@@ -24,7 +23,6 @@
     width: 400px;
     margin: auto;
     border: 10px solid grey;
-
 }
 
 .bike_header{
@@ -39,6 +37,7 @@
 .bike_grid{
     display: grid;
     text-align: center;
+    margin: auto;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
  }
  
@@ -67,8 +66,8 @@
  }
  .bike_card:hover{
     cursor:pointer;
-    transition: 0.5s;
-    transform: scale(1.15);
+    /* transition: 0.5s;
+    transform: scale(1.15); */
 } 
 
 .for_hire{
@@ -112,18 +111,26 @@
             width: 300px;
         }
         .bike_grid_items{
-            width: 300px;
+            margin: auto;
+            width: 200px
         }
         .bike_header{
             font-size: 2rem;
         }
-    
+        .bike_grid_items{
+            width: 300px;
+        }
+        .bike_card{
+            width: 300px;
+            margin: auto;
+            margin-top: 1rem;
+           
+        } 
         
     }
     @media only screen and (min-width: 620px){ 
         .bike_grid{
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr, ));
-            margin: 0;
          }
          
     }
