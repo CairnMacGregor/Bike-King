@@ -229,3 +229,11 @@ footer{
 }
 
 }
+@media(max-width: 400px){
+    .btn{
+        text-align: center;
+        padding: 20px 40px;
+        font-size:0.8rem;
+    }
+
+}

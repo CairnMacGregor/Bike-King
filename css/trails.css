@@ -223,5 +223,18 @@ html{
  
       @media(max-width:1000px){
         .trails_heading{
-          width: 90%;}
+          width: 90%;
+          font-size:  1rem;
+        }
       }
+
+      @media(max-width:400px){
+        .trail_card__heading {
+          font-size: 2rem;}
+
+          .trail_card__details ul li{
+            text-align: center;
+            font-size: 1.3rem;
+            padding-top: 1rem; 
+          }
+          }
