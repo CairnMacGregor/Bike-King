@@ -24,7 +24,7 @@ html{
     position: relative;
     height: 52rem; 
     max-width: 30rem;
- 
+    margin: auto;
 }
     .trail_card__side {
       font-size: 2rem;
@@ -189,7 +189,8 @@ html{
       display: table;
       clear: both; }
     .row2 [class^="col-"] {
-      float: left; }
+      float: left; 
+    }
       .row2 [class^="col-"]:not(:last-child) {
         margin-right: 6rem; }
         @media (max-width: 56.25em) {
@@ -212,3 +213,7 @@ html{
     .row2 .col-3-of-4 {
       width: calc(3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem); }
  
+      @media(max-width:1000px){
+        .trails_heading{
+          width: 90%;}
+      }
