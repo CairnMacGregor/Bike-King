@@ -102,11 +102,11 @@ body{
 }
 /* FOOTER */
 footer{
-    background: white;
+    background: #333;
     padding-top: 2rem;
     padding-bottom: 3rem;
     justify-content: space-evenly;
-    color: black;
+    color: white;
 }
 
 .grid{
@@ -124,10 +124,10 @@ footer{
     text-decoration: none;
     display:block;
     padding-bottom: 0.5rem;
-    color: black;
+    color: white;
 }
 .footer_a:hover{
-    color: blue;
+    color: rgba(255, 0 , 0 , 0.5);
 }
 .socials{
     padding-top: 1rem;
@@ -138,17 +138,17 @@ footer{
 }
 .social_link{
     font-size: 4rem;
-    color: black;
+    color: white;
 }
 
 .social_link:hover{
-    color: blue;
+    color: rgba(255, 0 , 0 , 0.5);
 }
 .footer_i{
     font-size: 2rem;
 }
 .footer_i:hover{
-    color: blue; 
+    color: rgba(255, 0 , 0 , 0.5); 
 }
 
 .btn{
@@ -157,7 +157,7 @@ footer{
     padding: 15px 32px;
     background-color: white;
     color: black;
-    border: 2px solid #4CAF50;
+    border: 2px solid #333;
     max-width: 50%;
     margin: auto;
     font-size: 1.2rem;
@@ -166,7 +166,7 @@ footer{
 }
 
 .btn:hover{
-    background-color: #4CAF50; /* Green */
+    background-color: #333; 
     color: white;
 }
 
@@ -220,7 +220,7 @@ footer{
     }
 
    .social_link{
-       color:black;
+       color:white;
        font-size: 2rem;
    }
 
