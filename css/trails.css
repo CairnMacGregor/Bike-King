@@ -1,3 +1,18 @@
+html{
+  background-image: url(/imgs/background_secondary1.png);
+  background-size: cover;
+}
+
+.trails_heading{
+  color: white;
+  background-image: linear-gradient(to right bottom, rgba(78, 78, 78, 0.85), rgba(7, 7, 7, 0.85)); 
+  text-align: center;
+  font-size:  3rem;
+  width: 50%;
+  margin: 3rem auto;
+  padding: 3rem 0;
+}
+
 .section_trails{
    margin: 1rem;
 
