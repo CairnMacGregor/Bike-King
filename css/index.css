@@ -1,8 +1,8 @@
 .header{
     background-image:linear-gradient(
         to right bottom,
-        rgba(0, 0, 0, 0.3),
-        rgba(0, 0, 0, 0.9)),
+        rgba(0, 0, 0, 0.9),
+        rgba(0, 0, 0, 0.8)),
     url(/imgs/alternative_background_smaller.jpg);
     background-repeat: no-repeat;
     background-size: cover;
