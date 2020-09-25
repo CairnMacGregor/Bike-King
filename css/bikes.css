@@ -1,3 +1,7 @@
+.bike_info{
+    background: white;
+}
+
 .important_info{
     margin-left: 5rem;    
 }
@@ -66,29 +70,26 @@
  }
  .bike_card:hover{
     cursor:pointer;
-    /* transition: 0.5s;
-    transform: scale(1.15); */
+    transition: 0.5s;
+    transform: scale(1.15);
 } 
 
 .for_hire{
-    background-image: url(/imgs/background_secondary1.png);
-    background-size: cover;
-    margin-top: 10rem;
     padding-top: 5rem;
     padding-bottom: 10rem;
+    border-top: 2px solid #333;
 }
 
 .mountain_bikes{
-    background-image: url(/imgs/background_secondary.jpg);
     padding-top: 10rem;
     padding-bottom: 10rem;
+    border-top: 2px solid #333;
 }
 
 .road_bikes{
-    background-image: url(/imgs/background_secondary1.png);
-    background-size: cover;
     padding-top: 15rem;
-    padding-bottom: 10rem;   
+    padding-bottom: 10rem;  
+    border-top: 2px solid #333; 
 }
 
 

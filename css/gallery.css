@@ -29,10 +29,6 @@ margin: auto;
 justify-content: center;
 }
 
-html{
-    background-image: url(/imgs/background_secondary1.png);
-    background-size: cover;
-}
 
 
  @media(max-width: 1000px){
