@@ -6,7 +6,7 @@
     url(/imgs/alternative_background_smaller.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    min-height: 100vh;
     padding: 0 3rem 0 3rem;
     color: white;
     padding-top: 3rem;
