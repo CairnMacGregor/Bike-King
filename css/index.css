@@ -9,6 +9,8 @@
     height: 100vh;
     padding: 0 3rem 0 3rem;
     color: white;
+    padding-top: 3rem;
+    text-transform: uppercase;
 }
 .emphasis{
     color: red;
@@ -31,6 +33,7 @@ a{
 }
 
 .logo_img{
+    width: 45%;
     margin: auto;
 }
 .main_content{
@@ -40,7 +43,6 @@ a{
 .about{ 
     padding-top: 5rem;
     text-align: center;
-    /* background-image: url(/imgs/background_secondary1.png); */
     background-size: cover;
     padding-bottom: 10rem;
 }
