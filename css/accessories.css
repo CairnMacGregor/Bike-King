@@ -1,0 +1,66 @@
+button{
+    transition-duration: 0.4s;
+    padding: 15px 32px;
+    background-color: white;
+    color: black;
+    border: 2px solid #333;
+    margin: auto;
+    font-size: 1.2rem;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.button_container{
+    text-align: center;
+}
+
+.content-container{
+    margin: auto;
+}
+
+
+.content-container{
+    margin: auto;
+}
+
+
+.test-div{
+    text-align: center;
+    width: 100%;
+    display: none;
+}
+
+.test-div.show{
+    display: block;
+}
+
+.accessories_grid{
+    display: grid;
+    text-align: center;
+    margin: auto;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+ }
+ 
+ .accesories_grid_items{
+    margin: auto;
+}
+
+.accessories_card{
+    padding: 0;
+    margin: 1rem;
+    border: 1px solid grey;
+    border-radius: 10px; 
+    background: white;
+    transition: 0.5s;
+}   
+ .bike_img{
+     width: 100%;
+     border-radius: 10px;
+     border-bottom: none;
+ }
+
+ .card_info{
+     border-top: 1px solid grey;
+     padding-left: 1rem;
+    
+ }
