@@ -1,56 +1,44 @@
-
-.info_box{
-    margin: 3rem;
+.about_header_container{
+    background: white;    
+    min-height: 90vh;
 }
 
-.youtube_vid{
-    width:560px;
-    height:315px;
+.about_img{
+    width: 75%;
 }
 
-.map_box{
+.about_main_content{
+    background-color: none;
     text-align: center;
-    align-items: center;
-    justify-content: center;
-    margin-left: 10rem;
+    min-height: 50vh;
 }
 
-.content_box{
-    margin: 2rem;
-    max-width: 800px;
-    box-shadow:0px 0px 10px 2px rgba(0, 0, 0, 0.20);
-    padding: 1rem;
-    background: white;
-    color: black;
-    transition: 1s;      
-}
-
-.text_box{
-    min-height: 300px;
-}
-.content_box:hover{
-    transition: 0.5s;
-    transform: translateX(-5%);
-    transform: translateY(-5%);
-}
-
-#map {
+.video{
     width: 100%;
-    height: 400px;
-    background-color: grey;
+    margin-left: 2rem;
+    
+}
+
+.main_text{
+    width: 100%;
+    margin-right: 2rem;
+    font-size: 2rem;
 }
 
 .form{
-    background-color: white;
-    margin: 5rem;
-    padding: 2.5rem;
-    font-size: 2rem;
-}
+    margin: auto;
+    background: white;
+    width: 90%;}
 
 .form_group{
     padding: 1rem;
     margin: 1rem;
 }
+
+.heading_secondary{
+    margin: 3rem;
+}
+
 .form_input{
 font-size: 1.5rem;
 color: #000000;
@@ -59,29 +47,24 @@ border-radius: 2px;
 background-color: #fff;
 border: none;
 border-bottom: 3px solid transparent;
-width: 90%;
 display: block;
 box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
-max-width: 100%; 
+width: 100%;
+margin-bottom: 1rem;
 }
-
-
 .form_label{
     display: inline-block;
+    font-size: 2rem;
 }
 
 .form_input:focus {
     outline: none;
-    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.1);
     border-bottom: 3px solid #05BF1E; }
 .form_input:focus:invalid {
     border-bottom: 3px solid #FF0000; }
 .form_input::-webkit-input-placeholder {
-    color: #999; }
-
-textarea{
-    resize: none;
-    height: 20rem;
+    color: #999; 
 }
 
 .button_submit{
@@ -92,25 +75,13 @@ textarea{
     color: black;
     border: 2px solid #4CAF50;
 }
-      
+
 .button_submit:hover {
     background-color: #4CAF50; /* Green */
     color: white;
 }
 
-@media(max-width: 1000px){
-.map_box{
-    margin: 1rem;
-}
-
-.form{
-    margin: 1rem;
-    padding: 1rem;
-}
-
-.youtube_vid{
-    width:300px;
-    height:150px;
-}
-
+.map{
+    margin-top: 5rem;
+    width: 100%;
 }
