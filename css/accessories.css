@@ -9,6 +9,10 @@ button{
     display: inline-block;
     text-decoration: none;
 }
+
+button:hover{
+    cursor: pointer;
+}
 .accessories_container{
     padding-bottom: 10rem;
     background-color: white;
