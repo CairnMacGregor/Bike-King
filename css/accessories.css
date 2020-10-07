@@ -9,9 +9,27 @@ button{
     display: inline-block;
     text-decoration: none;
 }
+.accessories_container{
+    padding-bottom: 10rem;
+    background-color: white;
+}
+
+.accessories_header{
+    text-align: center;
+
+}
+.accessories_header_container{
+    margin-left: 2rem;
+    font-size: 1.5rem;
+}
+.accessories_img{
+    width: 75%;
+    margin: auto;
+}
 
 .button_container{
     text-align: center;
+    margin-top: 2rem;
 }
 
 .content-container{
@@ -53,8 +71,12 @@ button{
     background: white;
     transition: 0.5s;
 }   
- .bike_img{
+ .accessories_img{
+     overflow: hidden;
+     object-fit: cover;
+     height: 20rem;
      width: 100%;
+     max-height: 100%;
      border-radius: 10px;
      border-bottom: none;
  }
@@ -63,4 +85,24 @@ button{
      border-top: 1px solid grey;
      padding-left: 1rem;
     
+ }
+
+ .btn_active{
+     color: white;
+     border-color: white;
+     background-color: #333;
+ }
+
+ @media(max-width: 1000px){
+    button{
+        width: 50%;
+        margin: .5rem;
+    }
+    .accessories_img{
+        width: 100%;
+    }
+    .accessories_header_container{
+        margin-left: 0;
+        font-size: 1.2rem;
+    }
  }
