@@ -150,7 +150,8 @@ footer{
     color: white;
 }
 .footer_a:hover{
-    color: rgba(255, 0 , 0 , 0.5);
+    /* color: rgba(255, 0 , 0 , 0.5); */
+    color: red;
 }
 .socials{
     padding-top: 1rem;
@@ -165,13 +166,15 @@ footer{
 }
 
 .social_link:hover{
-    color: rgba(255, 0 , 0 , 0.5);
+    /* color: rgba(255, 0 , 0 , 0.5); */
+    color: red;
 }
 .footer_i{
     font-size: 2rem;
 }
 .footer_i:hover{
-    color: rgba(255, 0 , 0 , 0.5); 
+    /* color: rgba(255, 0 , 0 , 0.5);  */
+    color: red;
 }
 
 .btn{
