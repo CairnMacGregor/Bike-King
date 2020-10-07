@@ -26,7 +26,7 @@ button:hover{
     margin-left: 2rem;
     font-size: 1.5rem;
 }
-.accessories_img{
+.accessories_header_img{
     width: 75%;
     margin: auto;
 }
@@ -102,7 +102,7 @@ button:hover{
         width: 50%;
         margin: .5rem;
     }
-    .accessories_img{
+    .accessories_header_img{
         width: 100%;
     }
     .accessories_header_container{
