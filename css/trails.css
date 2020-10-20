@@ -19,6 +19,9 @@ html{
 
 }
 
+.trails_img{
+  width: 50%;
+}
 
 .trail_card {
     perspective: 150rem;
@@ -224,8 +227,11 @@ html{
  
       @media(max-width:1000px){
         .trails_heading{
-          width: 90%;
-          font-size:  1rem;
+          font-size:  1.5rem;
+        }
+
+        .trails_img{
+          width: 100%;
         }
         .trail_card__heading {
           font-size: 2rem;}
