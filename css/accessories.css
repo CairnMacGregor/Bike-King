@@ -16,10 +16,12 @@ button:hover{
 .accessories_container{
     padding-bottom: 10rem;
     background-color: white;
+    min-height: 100vh;
 }
 
 .accessories_header{
     text-align: center;
+    
 
 }
 .accessories_header_container{

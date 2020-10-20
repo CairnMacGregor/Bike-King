@@ -1,574 +1,608 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trails</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,500&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/trails.css">
     <script src="https://kit.fontawesome.com/faea18554b.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <!-- NAVBAR -->
-    <nav class = "navbar">
-        <div class = "title">
+    <nav class="navbar">
+        <div class="title">
             <a href="/index.html">BIKE KING</a>
         </div>
-        <a href="#" class = "toggle-button">
-            <span class = "bar"></span>
-            <span class = "bar"></span>
-            <span class = "bar"></span>
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>\
+            <span class="bar"></span>
+            <span class="bar"></span>
         </a>
         <div class="navbar-links">
             <ul>
-                <div class ="nav_form">
+                <div class="nav_form">
                     <form action="">
                         <input type="text">
                         <!-- <button id = "nav_search" class = search_bar><i class="fas fa-search"></i></button>  -->
                     </form>
                 </div>
-                <li><a href="bikes.html" class = "tag-link">Bikes <i class="fas fa-bicycle"></i></a></li>
-                <li><a href="service.html" class = "tag-link">Servicing <i class="fas fa-wrench"></i></a></li>
-                <li><a href="accessories.html" class = "tag-link">Accessories <i class="fas fa-shopping-bag"></i></a> </li>
-                <li><a href="trails.html" class = "tag-link current">Bike Trails <i class="fas fa-tree"></i></a></li>
-                <li><a href="gallery.html" class = "tag-link">Gallery <i class="fas fa-images"></i></a></li>
-                <li><a href="about.html" class = "tag-link">About us <i class="fas fa-info-circle"></i></a></li>
+                <li><a href="bikes.html" class="tag-link">Bikes <i class="fas fa-bicycle"></i></a></li>
+                <li><a href="service.html" class="tag-link">Servicing <i class="fas fa-wrench"></i></a></li>
+                <li><a href="accessories.html" class="tag-link">Accessories <i class="fas fa-shopping-bag"></i></a>
+                </li>
+                <li><a href="trails.html" class="tag-link current">Bike Trails <i class="fas fa-tree"></i></a></li>
+                <li><a href="gallery.html" class="tag-link">Gallery <i class="fas fa-images"></i></a></li>
+                <li><a href="about.html" class="tag-link">About us <i class="fas fa-info-circle"></i></a></li>
             </ul>
         </div>
     </nav>
     <section class="section_trails" id="section_trails">
         <div class="trails_heading">
-                <h2 >
-                    Our most popular local trails
-                </h2>
-                <p>See where the locals like to cycle</p>
+            <div class="container">
+                <div class="trails_text">
+                    <h1>Check out local trails, events and landmarks!</h1>
+                    <p>Cycle exciting trails</p>
+                    <p>Find and event to suit you</p>
+                    <p>Visit local landmarks that are bike friendly</p>
+                </div>
+                <img class="service_img" src="/imgs/service.png" alt="Picture of guy on bike ">
+            </div>
         </div>
-        <div  id ="particles-js"></div>
-<!-- START OF ROW 1-->
+        <div id="particles-js"></div>
+        <!-- START OF ROW 1-->
+        <div class="card_containers">
         <div class="row2">
             <!-- Trail Card 1 -->
             <div class="col-1-of-3">
-        <div class="trail_card">
-            <div class="trail_card__side trail_card__side--front">
-                <div class="trail_card__picture trail_card__picture--1">
-                    &nbsp;
-                </div>
-                <h4 class="trail_card__heading">
-                    <span class="trail_card__heading-span--1">Tweed Cycle Route</span>
-                </h4>
-                <div class="trail_card__details">
-                    <ul>
-                        <li>95 miles</li>
-                        <li>Challenging</li>
-                        <li>1802m Altitude gain</li>
-                        <li>3 - 5 Days</li>
-                    </ul>
-                </div>
-            </div>  
-
-            <!-- Trail card 1 back side -->
-            <div class="trail_card__side trail_card__side--back trail_card__side--back-1">
-                    <div class="trail_card__cta">
-                        <div class="trail_card__link">
-                            <a href="https://cyclescottishborders.com/route/tweed-cycle-route/" target="_blank" class="btn">See more of this trail</a>    
+                <div class="trail_card">
+                    <div class="trail_card__side trail_card__side--front">
+                        <div class="trail_card__picture trail_card__picture--1">
+                            &nbsp;
                         </div>
-                        
-                        <a href="https://cyclescottishborders.com/plan-your-visit/routes/"target="_blank" class="btn">See more trails like this</a>
+                        <h4 class="trail_card__heading">
+                            <span class="trail_card__heading-span--1">Tweed Cycle Route</span>
+                        </h4>
+                        <div class="trail_card__details">
+                            <ul>
+                                <li>95 miles</li>
+                                <li>Challenging</li>
+                                <li>1802m Altitude gain</li>
+                                <li>3 - 5 Days</li>
+                            </ul>
+                        </div>
                     </div>
-            </div> 
-        </div> 
-    </div>     
-       <!-- End of trail card 1 -->
 
-       <!-- Trail Card 2 -->
-       <div class="col-1-of-3">
-       <div class="trail_card">
-        <div class="trail_card__side trail_card__side--front">
-            <div class="trail_card__picture trail_card__picture--2">
-                &nbsp;
-            </div>
-            <h4 class="trail_card__heading">
-                <span class="trail_card__heading-span--1">Borders Railway Link</span>
-            </h4>
-            <div class="trail_card__details">
-                <ul>
-                    <li>7.7 Miles</li>
-                    <li>Easy</li>
-                    <li>Minimal Altitude Gain</li>
-                    <li>1 Day</li>
-                </ul>
-            </div>
-        </div>  
+                    <!-- Trail card 1 back side -->
+                    <div class="trail_card__side trail_card__side--back trail_card__side--back-1">
+                        <div class="trail_card__cta">
+                            <div class="trail_card__link">
+                                <a href="https://cyclescottishborders.com/route/tweed-cycle-route/" target="_blank"
+                                    class="btn">See more of this trail</a>
+                            </div>
 
-        <!-- Trail card 2 back side -->
-        <div class="trail_card__side trail_card__side--back trail_card__side--back-1">
-                <div class="trail_card__cta">
-                    <div class="trail_card__link">
-                        <a href="https://cyclescottishborders.com/route/borders-railway-link-clovenfords-to-melrose/" target="_blank" class="btn">See more of this trail</a>    
+                            <a href="https://cyclescottishborders.com/plan-your-visit/routes/" target="_blank"
+                                class="btn">See more trails like this</a>
+                        </div>
                     </div>
-                    
-                    <a href="https://cyclescottishborders.com/plan-your-visit/routes/"target="_blank" class="btn">See more trails like this</a>
                 </div>
-        </div> 
-    </div>   
-</div>   
-   <!-- End of trail card 2 -->
+            </div>
+            <!-- End of trail card 1 -->
 
+            <!-- Trail Card 2 -->
+            <div class="col-1-of-3">
+                <div class="trail_card">
+                    <div class="trail_card__side trail_card__side--front">
+                        <div class="trail_card__picture trail_card__picture--2">
+                            &nbsp;
+                        </div>
+                        <h4 class="trail_card__heading">
+                            <span class="trail_card__heading-span--1">Borders Railway Link</span>
+                        </h4>
+                        <div class="trail_card__details">
+                            <ul>
+                                <li>7.7 Miles</li>
+                                <li>Easy</li>
+                                <li>Minimal Altitude Gain</li>
+                                <li>1 Day</li>
+                            </ul>
+                        </div>
+                    </div>
 
-<!-- Trail Card 3 -->
-<div class="col-1-of-3">
-    <div class="trail_card">
-     <div class="trail_card__side trail_card__side--front">
-         <div class="trail_card__picture trail_card__picture--3">
-             &nbsp;
-         </div>
-         <h4 class="trail_card__heading">
-             <span class="trail_card__heading-span--1">Coast and Castles</span>
-         </h4>
-         <div class="trail_card__details">
-             <ul>
-                 <li>200 Miles</li>
-                 <li>Challenging</li>
-                 <li>1423m Altitude Gain</li>
-                 <li>3 - 7 Days</li>
-             </ul>
-         </div>
-     </div>  
+                    <!-- Trail card 2 back side -->
+                    <div class="trail_card__side trail_card__side--back trail_card__side--back-1">
+                        <div class="trail_card__cta">
+                            <div class="trail_card__link">
+                                <a href="https://cyclescottishborders.com/route/borders-railway-link-clovenfords-to-melrose/"
+                                    target="_blank" class="btn">See more of this trail</a>
+                            </div>
 
-     <!-- Trail card 3 back side -->
-     <div class="trail_card__side trail_card__side--back trail_card__side--back-1">
-             <div class="trail_card__cta">
-                 <div class="trail_card__link">
-                     <a href="https://cyclescottishborders.com/route/coast-castles/" target="_blank" class="btn">See more of this trail</a>    
-                 </div>
-                 
-                 <a href="https://cyclescottishborders.com/plan-your-visit/routes/"target="_blank" class="btn">See more trails like this</a>
-             </div>
-     </div> 
- </div>   
-</div>   
-<!-- End of trail card 3 -->
-
-<!-- END OF ROW 1-->
-</div>     
-<!-- END OF ROW 1-->    
-
-<div class="trails_heading">
-    <h2>
-        Upcoming cycling events
-    </h2>
-    <p>Get competetive!</p>
-</div>
-
-<!-- START OF ROW 2 -->
-<div class="row2">
-    <!-- Trail Card 4 -->
-    <div class="col-1-of-3">
-<div class="trail_card">
-    <div class="trail_card__side trail_card__side--front">
-        <div class="trail_card__picture trail_card__picture--4">
-            &nbsp;
-        </div>
-        <h4 class="trail_card__heading">
-            <span class="trail_card__heading-span--2">A Bridge too far</span>
-        </h4>
-        <div class="trail_card__details">
-            <ul>
-                <li>18.10.20 - 18.10.20</li>
-                <li>13 - 45 Miles</li>
-                <li>Starting point - Swinton</li>
-            </ul>
-        </div>
-    </div>  
-
-    <!-- Trail card 4 back side -->
-    <div class="trail_card__side trail_card__side--back trail_card__side--back-2">
-            <div class="trail_card__cta">
-                <div class="trail_card__link">
-                    <a href="https://cyclescottishborders.com/event/a-bridge-too-far/" target="_blank" class="btn">View this event</a>    
+                            <a href="https://cyclescottishborders.com/plan-your-visit/routes/" target="_blank"
+                                class="btn">See more trails like this</a>
+                        </div>
+                    </div>
                 </div>
-                
-                <a href="https://cyclescottishborders.com/events/"target="_blank" class="btn">More events</a>
             </div>
-    </div> 
-</div> 
-</div>     
-<!-- End of trail card 4 -->
-
-<!-- Trail Card 5 -->
-<div class="col-1-of-3">
-<div class="trail_card">
-<div class="trail_card__side trail_card__side--front">
-    <div class="trail_card__picture trail_card__picture--5">
-        &nbsp;
-    </div>
-    <h4 class="trail_card__heading">
-        <span class="trail_card__heading-span--2">Vallelujah</span>
-    </h4>
-    <div class="trail_card__details">
-        <ul>
-            <li>27.03.21 - 28.03.21</li>
-            <li>Short Course</li>
-            <li>Starting point - Peebles</li>
-        </ul>
-    </div>
-</div>  
-
-<!-- Trail card 5 back side -->
-<div class="trail_card__side trail_card__side--back trail_card__side--back-2">
-        <div class="trail_card__cta">
-            <div class="trail_card__link">
-                <a href="https://cyclescottishborders.com/event/vallelujah/" target="_blank" class="btn">View this event</a>    
-            </div>
-            
-            <a href="https://cyclescottishborders.com/events/"target="_blank" class="btn">More events</a>
-        </div>
-</div> 
-</div>   
-</div>   
-<!-- End of trail card 5 -->
+            <!-- End of trail card 2 -->
 
 
-<!-- Trail Card 6 -->
-<div class="col-1-of-3">
-<div class="trail_card">
-<div class="trail_card__side trail_card__side--front">
- <div class="trail_card__picture trail_card__picture--6">
-     &nbsp;
- </div>
- <h4 class="trail_card__heading">
-     <span class="trail_card__heading-span--2">Glentress Seven</span>
- </h4>
- <div class="trail_card__details">
-     <ul>
-         <li>29.05.21 - 29.05.21</li>
-         <li>7 Miles</li>
-         <li>Starting Point - Peebles</li>
-     </ul>
- </div>
-</div>  
+            <!-- Trail Card 3 -->
+            <div class="col-1-of-3">
+                <div class="trail_card">
+                    <div class="trail_card__side trail_card__side--front">
+                        <div class="trail_card__picture trail_card__picture--3">
+                            &nbsp;
+                        </div>
+                        <h4 class="trail_card__heading">
+                            <span class="trail_card__heading-span--1">Coast and Castles</span>
+                        </h4>
+                        <div class="trail_card__details">
+                            <ul>
+                                <li>200 Miles</li>
+                                <li>Challenging</li>
+                                <li>1423m Altitude Gain</li>
+                                <li>3 - 7 Days</li>
+                            </ul>
+                        </div>
+                    </div>
 
-<!-- Trail card 6 back side -->
-<div class="trail_card__side trail_card__side--back trail_card__side--back-2">
-    <div class="trail_card__cta">
-        <div class="trail_card__link">
-            <a href="https://cyclescottishborders.com/event/glentress-seven/" target="_blank" class="btn">View this event</a>    
-        </div>
-        
-        <a href="https://cyclescottishborders.com/events/"target="_blank" class="btn">More events</a>
-    </div>
-</div> 
-</div>   
-</div>   
-<!-- End of trail card 6 -->
+                    <!-- Trail card 3 back side -->
+                    <div class="trail_card__side trail_card__side--back trail_card__side--back-1">
+                        <div class="trail_card__cta">
+                            <div class="trail_card__link">
+                                <a href="https://cyclescottishborders.com/route/coast-castles/" target="_blank"
+                                    class="btn">See more of this trail</a>
+                            </div>
 
-<!-- END OF ROW 2-->
-</div>     
-<!-- END OF ROW 2-->   
-
-<!-- START OF ROW 3 -->
-<div class="row2">
-    <!-- Trail Card 7 -->
-    <div class="col-1-of-3">
-<div class="trail_card">
-    <div class="trail_card__side trail_card__side--front">
-        <div class="trail_card__picture trail_card__picture--7">
-            &nbsp;
-        </div>
-        <h4 class="trail_card__heading">
-            <span class="trail_card__heading-span--2">TOUR O THE BORDERS</span>
-        </h4>
-        <div class="trail_card__details">
-            <ul>
-                <li>05.09.21 - 05.09.21</li>
-                <li>55 - 75 Miles</li>
-                <li>Starting Point - Peebles</li>
-            </ul>
-        </div>
-    </div>  
-
-    <!-- Trail card 7 back side -->
-    <div class="trail_card__side trail_card__side--back trail_card__side--back-2">
-            <div class="trail_card__cta">
-                <div class="trail_card__link">
-                    <a href="https://cyclescottishborders.com/event/tour-o-borders-2019/" target="_blank" class="btn">View this event</a>    
+                            <a href="https://cyclescottishborders.com/plan-your-visit/routes/" target="_blank"
+                                class="btn">See more trails like this</a>
+                        </div>
+                    </div>
                 </div>
-                
-                <a href="https://cyclescottishborders.com/events/"target="_blank" class="btn">More events</a>
             </div>
-    </div> 
-</div> 
-</div>     
-<!-- End of trail card 7 -->
+            <!-- End of trail card 3 -->
 
-<!-- Trail Card 8 -->
-<div class="col-1-of-3">
-<div class="trail_card">
-<div class="trail_card__side trail_card__side--front">
-    <div class="trail_card__picture trail_card__picture--8">
-        &nbsp;
-    </div>
-    <h4 class="trail_card__heading">
-        <span class="trail_card__heading-span--2">TENDURO</span>
-    </h4>
-    <div class="trail_card__details">
-        <ul>
-            <li>17.09.21 - 19.09.21</li>
-            <li>Short Course</li>
-            <li>Starting Point - Peebles</li>
-        </ul>
-    </div>
-</div>  
-
-<!-- Trail card 8 back side -->
-<div class="trail_card__side trail_card__side--back trail_card__side--back-2">
-        <div class="trail_card__cta">
-            <div class="trail_card__link">
-                <a href="https://cyclescottishborders.com/event/tenduro-mountain-bike-enduro/" target="_blank" class="btn">View this event</a>    
-            </div>
-            
-            <a href="https://cyclescottishborders.com/events/"target="_blank" class="btn">More events</a>
+            <!-- END OF ROW 1-->
         </div>
-</div> 
-</div>   
-</div>   
-<!-- End of trail card 8 -->
+        <!-- END OF ROW 1-->
 
-
-<!-- Trail Card 9 -->
-<div class="col-1-of-3">
-<div class="trail_card">
-<div class="trail_card__side trail_card__side--front">
- <div class="trail_card__picture trail_card__picture--9">
-     &nbsp;
- </div>
- <h4 class="trail_card__heading">
-     <span class="trail_card__heading-span--2">TWEEDLOVE FAMILY RIDE</span>
- </h4>
- <div class="trail_card__details">
-     <ul>
-         <li>17.09.21 - 17.09.21</li>
-         <li>7 Miles</li>
-         <li>Starting Point - Peebles</li>
-     </ul>
- </div>
-</div>  
-
-<!-- Trail card 9 back side -->
-<div class="trail_card__side trail_card__side--back trail_card__side--back-2">
-    <div class="trail_card__cta">
-        <div class="trail_card__link">
-            <a href="https://cyclescottishborders.com/event/goe-bike-family-ride/" target="_blank" class="btn">View this event</a>    
+        <div class="trails_heading_secondary">
+            <h2>
+                Upcoming cycling events
+            </h2>
+            <p>Get competetive!</p>
         </div>
-        
-        <a href="https://cyclescottishborders.com/events/"target="_blank" class="btn">More events</a>
-    </div>
-</div> 
-</div>   
-</div>   
-<!-- End of trail card 9 -->
 
-<!-- END OF ROW 3-->
-</div>     
+        <!-- START OF ROW 2 -->
+        <div class="row2">
+            <!-- Trail Card 4 -->
+            <div class="col-1-of-3">
+                <div class="trail_card">
+                    <div class="trail_card__side trail_card__side--front">
+                        <div class="trail_card__picture trail_card__picture--4">
+                            &nbsp;
+                        </div>
+                        <h4 class="trail_card__heading">
+                            <span class="trail_card__heading-span--2">A Bridge too far</span>
+                        </h4>
+                        <div class="trail_card__details">
+                            <ul>
+                                <li>18.10.20 - 18.10.20</li>
+                                <li>13 - 45 Miles</li>
+                                <li>Starting point - Swinton</li>
+                            </ul>
+                        </div>
+                    </div>
 
-<div class="trails_heading">
-    <h2>
-        Local Landmarks
-    </h2>
-    <p>Check out what's nearby</p>
-</div>
+                    <!-- Trail card 4 back side -->
+                    <div class="trail_card__side trail_card__side--back trail_card__side--back-2">
+                        <div class="trail_card__cta">
+                            <div class="trail_card__link">
+                                <a href="https://cyclescottishborders.com/event/a-bridge-too-far/" target="_blank"
+                                    class="btn">View this event</a>
+                            </div>
 
-<!-- START OF ROW 4 -->
-<div class="row2">
-    <!-- Trail Card 10 -->
-    <div class="col-1-of-3">
-<div class="trail_card">
-    <div class="trail_card__side trail_card__side--front">
-        <div class="trail_card__picture trail_card__picture--10">
-            &nbsp;
-        </div>
-        <h4 class="trail_card__heading">
-            <span class="trail_card__heading-span--3">Melrose Abbey</span>
-        </h4>
-        <div class="trail_card__details">
-            <ul>
-                <li>Melrose</li>
-                <li>Free entry</li>
-                <li>Cyclists Welcome Scheme Member</li>
-            </ul>
-        </div>
-    </div>  
-
-    <!-- Trail card 10 back side -->
-    <div class="trail_card__side trail_card__side--back trail_card__side--back-3">
-            <div class="trail_card__cta">
-                <div class="trail_card__link">
-                    <a href="https://cyclescottishborders.com/attraction/melrose-abbey/" target="_blank" class="btn">View this Local Landmark</a>    
+                            <a href="https://cyclescottishborders.com/events/" target="_blank" class="btn">More
+                                events</a>
+                        </div>
+                    </div>
                 </div>
-                
-                <a href="#"target="_blank" class="btn">More Local Landmarks</a>
             </div>
-    </div> 
-</div> 
-</div>     
-<!-- End of trail card 10 -->
+            <!-- End of trail card 4 -->
 
-<!-- Trail Card 11 -->
-<div class="col-1-of-3">
-<div class="trail_card">
-<div class="trail_card__side trail_card__side--front">
-    <div class="trail_card__picture trail_card__picture--11">
-        &nbsp;
-    </div>
-    <h4 class="trail_card__heading">
-        <span class="trail_card__heading-span--3">Dryburgh Abbey</span>
-    </h4>
-    <div class="trail_card__details">
-        <ul>
-            <li>St Boswells</li>
-            <li>Free Entry</li>
-            <li>Cyclists Welcome Scheme Member</li>
-        </ul>
-    </div>
-</div>  
+            <!-- Trail Card 5 -->
+            <div class="col-1-of-3">
+                <div class="trail_card">
+                    <div class="trail_card__side trail_card__side--front">
+                        <div class="trail_card__picture trail_card__picture--5">
+                            &nbsp;
+                        </div>
+                        <h4 class="trail_card__heading">
+                            <span class="trail_card__heading-span--2">Vallelujah</span>
+                        </h4>
+                        <div class="trail_card__details">
+                            <ul>
+                                <li>27.03.21 - 28.03.21</li>
+                                <li>Short Course</li>
+                                <li>Starting point - Peebles</li>
+                            </ul>
+                        </div>
+                    </div>
 
-<!-- Trail card 11 back side -->
-<div class="trail_card__side trail_card__side--back trail_card__side--back-3">
-        <div class="trail_card__cta">
-            <div class="trail_card__link">
-                <a href="https://cyclescottishborders.com/attraction/dryburgh-abbey/" target="_blank" class="btn">View this Local Landmark</a>    
-            </div>
-            
-            <a href="#"target="_blank" class="btn">More Local Landmarks</a>
-        </div>
-</div> 
-</div>   
-</div>   
-<!-- End of trail card 11 -->
+                    <!-- Trail card 5 back side -->
+                    <div class="trail_card__side trail_card__side--back trail_card__side--back-2">
+                        <div class="trail_card__cta">
+                            <div class="trail_card__link">
+                                <a href="https://cyclescottishborders.com/event/vallelujah/" target="_blank"
+                                    class="btn">View this event</a>
+                            </div>
 
-
-<!-- Trail Card 12 -->
-<div class="col-1-of-3">
-<div class="trail_card">
-<div class="trail_card__side trail_card__side--front">
- <div class="trail_card__picture trail_card__picture--12">
-     &nbsp;
- </div>
- <h4 class="trail_card__heading">
-     <span class="trail_card__heading-span--3">BOWHILL HOUSE</span>
- </h4>
- <div class="trail_card__details">
-     <ul>
-         <li>Bowhill</li>
-         <li>Admission Charged</li>
-         <li>Cyclists Welcome Scheme Member</li>
-     </ul>
- </div>
-</div>  
-
-<!-- Trail card 12 back side -->
-<div class="trail_card__side trail_card__side--back trail_card__side--back-3">
-    <div class="trail_card__cta">
-        <div class="trail_card__link">
-            <a href="https://cyclescottishborders.com/attraction/bowhill-house-country-estate/" target="_blank" class="btn">View this Local Landmark</a>    
-        </div>
-        
-        <a href="#"target="_blank" class="btn">More Local Landmarks</a>
-    </div>
-</div> 
-</div>   
-</div>   
-<!-- End of trail card 12 -->
-
-<!-- END OF ROW 4-->
-</div>     
-
-<!-- START OF ROW 5 -->
-<div class="row2">
-    <!-- Trail Card 13 -->
-    <div class="col-1-of-3">
-<div class="trail_card">
-    <div class="trail_card__side trail_card__side--front">
-        <div class="trail_card__picture trail_card__picture--13">
-            &nbsp;
-        </div>
-        <h4 class="trail_card__heading">
-            <span class="trail_card__heading-span--3">SMAILHOLM TOWER</span>
-        </h4>
-        <div class="trail_card__details">
-            <ul>
-                <li>Kelso</li>
-                <li>Admission charged</li>
-                <li>Open all year</li>
-            </ul>
-        </div>
-    </div>  
-
-    <!-- Trail card 13 back side -->
-    <div class="trail_card__side trail_card__side--back trail_card__side--back-3">
-            <div class="trail_card__cta">
-                <div class="trail_card__link">
-                    <a href="https://cyclescottishborders.com/attraction/smailholm-tower/" target="_blank" class="btn">View this Local Landmark</a>    
+                            <a href="https://cyclescottishborders.com/events/" target="_blank" class="btn">More
+                                events</a>
+                        </div>
+                    </div>
                 </div>
-                
-                <a href="#"target="_blank" class="btn">More Local Landmarks</a>
             </div>
-    </div> 
-</div> 
-</div>     
-<!-- End of trail card 13 -->
+            <!-- End of trail card 5 -->
 
-<!-- End of trail card 15 -->
 
-<!-- END OF ROW 5-->
-</div>     
-</section>
-<!-- FOOTER -->
-<footer>
-    <div class = "grid">
-        <div class = "grid_item">
-            <h2 class = "footer_h2">Learn more about biking</h2>
-            <a class ="footer_a" href="#">Why mountain biking is a great form of exercise</a>
-            <a class ="footer_a" href="#">How cycling to work will save the planet</a>
-            <a class ="footer_a" href="#">Bikes vs cars for commuting</a>
-            <a class ="footer_a" href="#">Bike maintenance guide</a>
+            <!-- Trail Card 6 -->
+            <div class="col-1-of-3">
+                <div class="trail_card">
+                    <div class="trail_card__side trail_card__side--front">
+                        <div class="trail_card__picture trail_card__picture--6">
+                            &nbsp;
+                        </div>
+                        <h4 class="trail_card__heading">
+                            <span class="trail_card__heading-span--2">Glentress Seven</span>
+                        </h4>
+                        <div class="trail_card__details">
+                            <ul>
+                                <li>29.05.21 - 29.05.21</li>
+                                <li>7 Miles</li>
+                                <li>Starting Point - Peebles</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Trail card 6 back side -->
+                    <div class="trail_card__side trail_card__side--back trail_card__side--back-2">
+                        <div class="trail_card__cta">
+                            <div class="trail_card__link">
+                                <a href="https://cyclescottishborders.com/event/glentress-seven/" target="_blank"
+                                    class="btn">View this event</a>
+                            </div>
+
+                            <a href="https://cyclescottishborders.com/events/" target="_blank" class="btn">More
+                                events</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End of trail card 6 -->
+
+            <!-- END OF ROW 2-->
         </div>
-        <div class = "grid_item">
-            <h2 class = "footer_h2">Events</h2>
-            <a class ="footer_a" href="#">Races</a>
-            <a class ="footer_a" href="#">Mountain biking team</a>
-            <a class ="footer_a" href="#">Custom building club</a>
-            
+        <!-- END OF ROW 2-->
+
+        <!-- START OF ROW 3 -->
+        <div class="row2">
+            <!-- Trail Card 7 -->
+            <div class="col-1-of-3">
+                <div class="trail_card">
+                    <div class="trail_card__side trail_card__side--front">
+                        <div class="trail_card__picture trail_card__picture--7">
+                            &nbsp;
+                        </div>
+                        <h4 class="trail_card__heading">
+                            <span class="trail_card__heading-span--2">TOUR O THE BORDERS</span>
+                        </h4>
+                        <div class="trail_card__details">
+                            <ul>
+                                <li>05.09.21 - 05.09.21</li>
+                                <li>55 - 75 Miles</li>
+                                <li>Starting Point - Peebles</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Trail card 7 back side -->
+                    <div class="trail_card__side trail_card__side--back trail_card__side--back-2">
+                        <div class="trail_card__cta">
+                            <div class="trail_card__link">
+                                <a href="https://cyclescottishborders.com/event/tour-o-borders-2019/" target="_blank"
+                                    class="btn">View this event</a>
+                            </div>
+
+                            <a href="https://cyclescottishborders.com/events/" target="_blank" class="btn">More
+                                events</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End of trail card 7 -->
+
+            <!-- Trail Card 8 -->
+            <div class="col-1-of-3">
+                <div class="trail_card">
+                    <div class="trail_card__side trail_card__side--front">
+                        <div class="trail_card__picture trail_card__picture--8">
+                            &nbsp;
+                        </div>
+                        <h4 class="trail_card__heading">
+                            <span class="trail_card__heading-span--2">TENDURO</span>
+                        </h4>
+                        <div class="trail_card__details">
+                            <ul>
+                                <li>17.09.21 - 19.09.21</li>
+                                <li>Short Course</li>
+                                <li>Starting Point - Peebles</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Trail card 8 back side -->
+                    <div class="trail_card__side trail_card__side--back trail_card__side--back-2">
+                        <div class="trail_card__cta">
+                            <div class="trail_card__link">
+                                <a href="https://cyclescottishborders.com/event/tenduro-mountain-bike-enduro/"
+                                    target="_blank" class="btn">View this event</a>
+                            </div>
+
+                            <a href="https://cyclescottishborders.com/events/" target="_blank" class="btn">More
+                                events</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End of trail card 8 -->
+
+
+            <!-- Trail Card 9 -->
+            <div class="col-1-of-3">
+                <div class="trail_card">
+                    <div class="trail_card__side trail_card__side--front">
+                        <div class="trail_card__picture trail_card__picture--9">
+                            &nbsp;
+                        </div>
+                        <h4 class="trail_card__heading">
+                            <span class="trail_card__heading-span--2">TWEEDLOVE FAMILY RIDE</span>
+                        </h4>
+                        <div class="trail_card__details">
+                            <ul>
+                                <li>17.09.21 - 17.09.21</li>
+                                <li>7 Miles</li>
+                                <li>Starting Point - Peebles</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Trail card 9 back side -->
+                    <div class="trail_card__side trail_card__side--back trail_card__side--back-2">
+                        <div class="trail_card__cta">
+                            <div class="trail_card__link">
+                                <a href="https://cyclescottishborders.com/event/goe-bike-family-ride/" target="_blank"
+                                    class="btn">View this event</a>
+                            </div>
+
+                            <a href="https://cyclescottishborders.com/events/" target="_blank" class="btn">More
+                                events</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End of trail card 9 -->
+
+            <!-- END OF ROW 3-->
         </div>
-        <div class = "grid_item">
-            <h2 class = "footer_h2">More from us</h2>
-            <a class ="footer_a" href="#">About us</a>
-            <a class ="footer_a" href="#">Blog</a>
-            <a class ="footer_a" href="#">Career opportunities</a>
+
+        <div class="trails_heading_secondary">
+            <h2>
+                Local Landmarks
+            </h2>
+            <p>Check out what's nearby</p>
         </div>
-        <div class = "grid_item">
-            <h2>Support</h2>
-            <a class ="footer_a" href="#">Contact us</a>
-            <a class ="footer_a" href="#">Help</a>
+
+        <!-- START OF ROW 4 -->
+        <div class="row2">
+            <!-- Trail Card 10 -->
+            <div class="col-1-of-3">
+                <div class="trail_card">
+                    <div class="trail_card__side trail_card__side--front">
+                        <div class="trail_card__picture trail_card__picture--10">
+                            &nbsp;
+                        </div>
+                        <h4 class="trail_card__heading">
+                            <span class="trail_card__heading-span--3">Melrose Abbey</span>
+                        </h4>
+                        <div class="trail_card__details">
+                            <ul>
+                                <li>Melrose</li>
+                                <li>Free entry</li>
+                                <li>Cyclists Welcome Scheme Member</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Trail card 10 back side -->
+                    <div class="trail_card__side trail_card__side--back trail_card__side--back-3">
+                        <div class="trail_card__cta">
+                            <div class="trail_card__link">
+                                <a href="https://cyclescottishborders.com/attraction/melrose-abbey/" target="_blank"
+                                    class="btn">View this Local Landmark</a>
+                            </div>
+
+                            <a href="#" target="_blank" class="btn">More Local Landmarks</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End of trail card 10 -->
+
+            <!-- Trail Card 11 -->
+            <div class="col-1-of-3">
+                <div class="trail_card">
+                    <div class="trail_card__side trail_card__side--front">
+                        <div class="trail_card__picture trail_card__picture--11">
+                            &nbsp;
+                        </div>
+                        <h4 class="trail_card__heading">
+                            <span class="trail_card__heading-span--3">Dryburgh Abbey</span>
+                        </h4>
+                        <div class="trail_card__details">
+                            <ul>
+                                <li>St Boswells</li>
+                                <li>Free Entry</li>
+                                <li>Cyclists Welcome Scheme Member</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Trail card 11 back side -->
+                    <div class="trail_card__side trail_card__side--back trail_card__side--back-3">
+                        <div class="trail_card__cta">
+                            <div class="trail_card__link">
+                                <a href="https://cyclescottishborders.com/attraction/dryburgh-abbey/" target="_blank"
+                                    class="btn">View this Local Landmark</a>
+                            </div>
+
+                            <a href="#" target="_blank" class="btn">More Local Landmarks</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End of trail card 11 -->
+
+
+            <!-- Trail Card 12 -->
+            <div class="col-1-of-3">
+                <div class="trail_card">
+                    <div class="trail_card__side trail_card__side--front">
+                        <div class="trail_card__picture trail_card__picture--12">
+                            &nbsp;
+                        </div>
+                        <h4 class="trail_card__heading">
+                            <span class="trail_card__heading-span--3">BOWHILL HOUSE</span>
+                        </h4>
+                        <div class="trail_card__details">
+                            <ul>
+                                <li>Bowhill</li>
+                                <li>Admission Charged</li>
+                                <li>Cyclists Welcome Scheme Member</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Trail card 12 back side -->
+                    <div class="trail_card__side trail_card__side--back trail_card__side--back-3">
+                        <div class="trail_card__cta">
+                            <div class="trail_card__link">
+                                <a href="https://cyclescottishborders.com/attraction/bowhill-house-country-estate/"
+                                    target="_blank" class="btn">View this Local Landmark</a>
+                            </div>
+
+                            <a href="#" target="_blank" class="btn">More Local Landmarks</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End of trail card 12 -->
+
+            <!-- END OF ROW 4-->
+        </div>
+
+        <!-- START OF ROW 5 -->
+        <div class="row2">
+            <!-- Trail Card 13 -->
+            <div class="col-1-of-3">
+                <div class="trail_card">
+                    <div class="trail_card__side trail_card__side--front">
+                        <div class="trail_card__picture trail_card__picture--13">
+                            &nbsp;
+                        </div>
+                        <h4 class="trail_card__heading">
+                            <span class="trail_card__heading-span--3">SMAILHOLM TOWER</span>
+                        </h4>
+                        <div class="trail_card__details">
+                            <ul>
+                                <li>Kelso</li>
+                                <li>Admission charged</li>
+                                <li>Open all year</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Trail card 13 back side -->
+                    <div class="trail_card__side trail_card__side--back trail_card__side--back-3">
+                        <div class="trail_card__cta">
+                            <div class="trail_card__link">
+                                <a href="https://cyclescottishborders.com/attraction/smailholm-tower/" target="_blank"
+                                    class="btn">View this Local Landmark</a>
+                            </div>
+
+                            <a href="#" target="_blank" class="btn">More Local Landmarks</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End of trail card 13 -->
+
+            <!-- End of trail card 15 -->
+
+            <!-- END OF ROW 5-->
         </div>
     </div>
+    </section>
+    <!-- FOOTER -->
+    <footer>
+        <div class="grid">
+            <div class="grid_item">
+                <h2 class="footer_h2">Learn more about biking</h2>
+                <a class="footer_a" href="#">Why mountain biking is a great form of exercise</a>
+                <a class="footer_a" href="#">How cycling to work will save the planet</a>
+                <a class="footer_a" href="#">Bikes vs cars for commuting</a>
+                <a class="footer_a" href="#">Bike maintenance guide</a>
+            </div>
+            <div class="grid_item">
+                <h2 class="footer_h2">Events</h2>
+                <a class="footer_a" href="#">Races</a>
+                <a class="footer_a" href="#">Mountain biking team</a>
+                <a class="footer_a" href="#">Custom building club</a>
 
-    <div class = "socials">
-        <a class = "social_link" href="#"><i class="fab fa-facebook-f"></i></a>
-        <a class = "social_link" href="#"><i class="fab fa-instagram"></i></a>
-        <a class = "social_link" href="#"><i class="fab fa-twitter"></i></a>
-        <a class = "social_link" href="#"><i class="fab fa-youtube"></i></a>
-        <a class = "social_link" href="#"><i class="fab fa-reddit"></i></a>
-    </div>
-    
-</footer>
-        <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
-        <script>
-            particlesJS.load('particles-js', 'particlesjs-config.json', function() {
-        console.log('callback - particles.js config loaded');
+            </div>
+            <div class="grid_item">
+                <h2 class="footer_h2">More from us</h2>
+                <a class="footer_a" href="#">About us</a>
+                <a class="footer_a" href="#">Blog</a>
+                <a class="footer_a" href="#">Career opportunities</a>
+            </div>
+            <div class="grid_item">
+                <h2>Support</h2>
+                <a class="footer_a" href="#">Contact us</a>
+                <a class="footer_a" href="#">Help</a>
+            </div>
+        </div>
+
+        <div class="socials">
+            <a class="social_link" href="#"><i class="fab fa-facebook-f"></i></a>
+            <a class="social_link" href="#"><i class="fab fa-instagram"></i></a>
+            <a class="social_link" href="#"><i class="fab fa-twitter"></i></a>
+            <a class="social_link" href="#"><i class="fab fa-youtube"></i></a>
+            <a class="social_link" href="#"><i class="fab fa-reddit"></i></a>
+        </div>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script>
+        particlesJS.load('particles-js', 'particlesjs-config.json', function () {
+            console.log('callback - particles.js config loaded');
         });
-        </script>
+    </script>
     <script src="/js/script.js"></script>
 </body>
+
 </html>

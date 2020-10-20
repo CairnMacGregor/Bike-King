@@ -16,7 +16,7 @@
 .video{
     width: 100%;
     margin-left: 2rem;
-    
+    margin-bottom: 3rem;
 }
 
 .main_text{
@@ -28,7 +28,11 @@
 .form{
     margin: auto;
     background: white;
-    width: 90%;}
+    width: 90%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+    
 
 .form_group{
     padding: 1rem;
@@ -84,4 +88,16 @@ margin-bottom: 1rem;
 .map{
     margin-top: 5rem;
     width: 100%;
+}
+
+@media(max-width: 1000px){
+    .video{
+        width: 90%;
+        margin-left: 0;  
+    }
+
+    .main_text{
+        width: 100%;
+        margin-right: 0;
+    }
 }
