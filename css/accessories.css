@@ -21,7 +21,6 @@ button:hover{
 
 .accessories_header{
     text-align: center;
-    
 
 }
 .accessories_header_container{
@@ -29,8 +28,7 @@ button:hover{
     font-size: 1.5rem;
 }
 .accessories_header_img{
-    width: 75%;
-    margin: auto;
+    width: 75%; 
 }
 
 .button_container{
