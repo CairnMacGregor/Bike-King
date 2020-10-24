@@ -1,3 +1,15 @@
+.gallery_info{
+    background: white;
+    min-height: 100vh;
+    padding-top: 3rem;
+}
+
+.gallery_header_image{
+    width: 50%;
+}
+
+
+
 .gallery_section{
     min-height: 100vh;
 }

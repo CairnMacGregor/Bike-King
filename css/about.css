@@ -13,6 +13,9 @@
     min-height: 50vh;
 }
 
+.about_info{
+    margin-left: 2rem;
+}
 .video{
     width: 100%;
     margin-left: 2rem;
@@ -96,6 +99,9 @@ margin-bottom: 1rem;
         margin-left: 0;  
     }
 
+    .about_info{
+        margin-left: 0rem;
+    }
     .main_text{
         width: 100%;
         margin-right: 0;
