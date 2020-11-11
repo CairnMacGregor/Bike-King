@@ -60,7 +60,7 @@
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                         allowfullscreen>
                     </iframe>
-                   
+                </div>  
                 
                 <div class = "main_text">
                     <p>Learn more about us in this delightful video. It is exteremely important that you watch it all. Multiple times.</p>
@@ -73,11 +73,11 @@
                 </div>
                 <div class="form_group">
                     <label class="form_label" for="name">Full name</label>
-                    <input class="form_input" type="text" name="name" placeholder="Name" required="">
+                    <input class="form_input" id = "name" type="text" name="name" placeholder="Name" required="">
                 </div>
                 <div class="form_group">
                     <label for="email" class="form_label">Email address</label>
-                    <input type="email" class="form_input" name="_replyto" placeholder="Email" required="">
+                    <input type="email" id="email" class="form_input" name="_replyto" placeholder="Email" required="">
                     <input class="button_submit" type="submit" value="Sign up">
                 </div>
             </form>
@@ -93,14 +93,7 @@
             </iframe>
             
 </section>
-<script src="/js/script.js"></script>
 
-<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
-        <script>
-            particlesJS.load('particles-js', 'particlesjs-config.json', function() {
-        console.log('callback - particles.js config loaded');
-        });
-        </script>
 </body>
 <footer>
     <div class = "grid">
@@ -140,4 +133,12 @@
     </div>
 
 </footer>
+<script src="/js/script.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+        <script>
+            particlesJS.load('particles-js', 'particlesjs-config.json', function() {
+        console.log('callback - particles.js config loaded');
+        });
+        </script>
 </html>
