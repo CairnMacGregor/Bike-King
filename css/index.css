@@ -101,4 +101,18 @@ a{
     .about_img{
         max-width: 90%;
     }
+    .header{
+        background-image:linear-gradient(
+            to right bottom,
+            rgba(0, 0, 0, 0.9),
+            rgba(0, 0, 0, 0.8)),
+        url(/imgs/alternative_background_even_smaller.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 100vh;
+        padding: 0 3rem 0 3rem;
+        color: white;
+        padding-top: 3rem;
+        text-transform: uppercase;
+    }
 }
