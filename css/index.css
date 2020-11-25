@@ -85,8 +85,7 @@ a{
     .sub_heading{
         font-size: 1rem;
     }
-    .container{
-       
+    .container{ 
         flex-direction: column;
         color: white;
     }
